@@ -7,32 +7,6 @@
 
 Protect yourself from Google's surveillance by using this blocklist! Feel free to criticize our blocklist to make it better and better. Suggestions are welcome!
 
-## How to use it on my Pi-hole?
-Simply go into to your blocklist settings to add:
-```
-https://raw.githubusercontent.com/nickspaargaren/no-google/master/pihole-google.txt
-```
-Or a selection of the domains :
-```
-https://raw.githubusercontent.com/nickspaargaren/no-google/master/categories/youtubeparsed
-https://raw.githubusercontent.com/nickspaargaren/no-google/master/categories/shortlinksparsed
-https://raw.githubusercontent.com/nickspaargaren/no-google/master/categories/proxiesparsed
-https://raw.githubusercontent.com/nickspaargaren/no-google/master/categories/productsparsed
-https://raw.githubusercontent.com/nickspaargaren/no-google/master/categories/mailparsed
-https://raw.githubusercontent.com/nickspaargaren/no-google/master/categories/generalparsed
-https://raw.githubusercontent.com/nickspaargaren/no-google/master/categories/fontsparsed
-https://raw.githubusercontent.com/nickspaargaren/no-google/master/categories/firebaseparsed
-https://raw.githubusercontent.com/nickspaargaren/no-google/master/categories/doubleclickparsed
-https://raw.githubusercontent.com/nickspaargaren/no-google/master/categories/domainsparsed
-https://raw.githubusercontent.com/nickspaargaren/no-google/master/categories/dnsparsed
-https://raw.githubusercontent.com/nickspaargaren/no-google/master/categories/androidparsed
-https://raw.githubusercontent.com/nickspaargaren/no-google/master/categories/analyticsparsed
-https://raw.githubusercontent.com/nickspaargaren/no-google/master/categories/fiberparsed
-```
-
-(Combining those with the main whole filter is useless and not recommended, however, feel free to combine the different smaller filters)
-
-
 ## Youtube Advertisements Regex
 >^r[0123456789]+((-{3})|(\.))sn-.{8}\.googlevideo\.com$
 
